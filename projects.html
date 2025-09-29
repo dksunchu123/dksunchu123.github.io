@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Your Name — Projects</title>
+  <link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <a class="brand" href="index.html">Your Name</a>
+      <nav>
+        <a href="thoughts.html">thoughts</a>
+        <a aria-current="page" href="projects.html">projects</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Projects</h1>
+      <ul class="list">
+        <li><a href="#" target="_blank" rel="noreferrer">AI Sidekick</a> <span class="meta">(2025)</span> — lightweight local assistant.</li>
+        <li><a href="#" target="_blank" rel="noreferrer">Stock Tracker</a> <span class="meta">(2024)</span> — portfolio dashboard.</li>
+        <li><a href="#" target="_blank" rel="noreferrer">Vestwell Mobile</a> <span class="meta">(2023)</span> — launched fintech app.</li>
+      </ul>
+    </main>
+
+    <footer>© <span id="y"></span> yourdomain.com</footer>
+  </div>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
