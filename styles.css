@@ -1,9 +1,9 @@
 body { font-family: system-ui, sans-serif; color:#0f172a; line-height:1.6; margin:0; }
-.wrap { max-width:720px; margin:0 auto; padding:20px 18px; } /* reduced top padding */
-.top { display:flex; justify-content:space-between; margin-bottom:8px; } /* less space below nav */
+.wrap { max-width:720px; margin:0 auto; padding:20px 18px; }
+.top { display:flex; justify-content:space-between; margin-bottom:8px; }
 .brand { font-weight:600; color:inherit; text-decoration:none; }
 nav a { margin-left:14px; font-weight:600; text-decoration:none; color:inherit; }
 nav a:hover { text-decoration:underline; }
-main p { margin:4px 0; } /* tighter line spacing */
+main p { margin:4px 0; }
 a.plain, a.plain:visited, a.plain:active { color:inherit; text-decoration:none; }
 a.plain:hover { text-decoration:underline; }
